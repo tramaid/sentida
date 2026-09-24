@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-warm-white: #FEFAF8;
+    --color-cream: #F8EADE;
+    --color-beige: #CFB59E;
+    --color-dark-brown: #402D21;
+    --color-mid-brown: #6C4D38;
+    --color-light-blue: #DDE6ED;
+    --color-deep-blue: #46627A;
+    --color-logo-blue: #8FB1C9;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #FEFAF8;
+    color: #402D21;
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Ban italics everywhere as per brand strict identity */
+  * {
+    font-style: normal !important;
+  }
+
+  /* Visible focus ring */
+  *:focus-visible {
+    outline: 2px solid #46627A;
+    outline-offset: 2px;
+  }
+}
+
+.font-serif-sentida {
+  font-family: 'Prata', Georgia, serif;
+}
+
+.font-sans-sentida {
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Slow Gentle Seal Rotation */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-seal-spin {
+  animation: spinSlow 35s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee,
+  .animate-seal-spin {
+    animation: none !important;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FEFAF8;
+}
+::-webkit-scrollbar-thumb {
+  background: #CFB59E;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6C4D38;
+}

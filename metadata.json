@@ -1,0 +1,6 @@
+{
+  "name": "SENTIDA Pastelería Artesanal",
+  "description": "Pastelería boutique y artesanal en Martínez, San Isidro. Tortas decoradas con flores naturales y delicias hechas a mano por Anto y Nadia. Pedidos por encargo vía WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

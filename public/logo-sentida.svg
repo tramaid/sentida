@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 76" width="340" height="76" fill="none">
+  <!-- SENTIDA Lettering -->
+  <text x="170" y="44" font-family="'Prata', Georgia, serif" font-size="34" font-weight="400" letter-spacing="4.5" fill="#402D21" text-anchor="middle">
+    SENTIDA
+  </text>
+  <!-- Subtitle -->
+  <text x="170" y="62" font-family="'Montserrat', sans-serif" font-size="9" font-weight="500" letter-spacing="3.8" fill="#6C4D38" text-anchor="middle">
+    PASTELERÍA ARTESANAL · MARTÍNEZ
+  </text>
+  <!-- Delicate Top Double Filete in Logo Blue #8FB1C9 -->
+  <line x1="140" y1="12" x2="200" y2="12" stroke="#8FB1C9" stroke-width="1" />
+  <line x1="147" y1="15" x2="193" y2="15" stroke="#8FB1C9" stroke-width="1" />
+  <!-- Small botanical petal above filete -->
+  <path d="M170 4 C172 7 174 8.5 174 10 C174 11.5 172.5 12 170 12 C167.5 12 166 11.5 166 10 C166 8.5 168 7 170 4 Z" fill="#402D21" opacity="0.85" />
+</svg>
